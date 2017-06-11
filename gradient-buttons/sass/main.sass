@@ -1,0 +1,198 @@
+// Partials
+@import '_gradients'
+@import '_variables'
+@import '_utility'
+@import '_helper'
+
+.g-btn
+  border: 0
+  color: $white
+  cursor: pointer
+  display: inline-block
+  font-size: $md-font-size
+  padding: $vertical-padding $horizontal-padding
+  outline: 0
+
+  // Icon Spacing
+  &__left-icon
+    margin-right: 7px
+  &__right-icon
+    margin-left: 7px
+
+  // Button Styling    
+  &.has-border
+    border: 1px solid
+  // Simple Gradient Buttons
+  &--blue
+    background: $g-blue
+    &.has-border
+      border-color: #0066f1
+    &:hover
+      background: #006cff 
+  &--purple
+    background: $g-purple
+    &.has-border
+      border-color: #514fce
+    &:hover
+      background: #824FE4
+  &--pink
+    background: $g-pink
+    &.has-border
+      border-color: #bc1aff
+    &:hover
+      background: #D471FD    
+  &--red
+    background: $g-red
+    &.has-border
+      border-color: #ff1c47
+    &:hover
+      background: #FF446C
+  &--green
+    background: $g-green
+    &.has-border
+      border-color: #59b55e
+    &:hover
+      background: #66BB6A
+  &--gray
+    background: $g-gray
+    &.has-border
+      border-color: #9c9c9c
+    &:hover
+      background: #a7a7a7
+  &--orange
+    background: $g-orange
+    &.has-border
+      border-color: #ff6340
+    &:hover
+      background: #FF5F3B
+  &--yellow
+    background: $g-yellow
+    &.has-border
+      border-color: #ec8d00
+    &:hover
+      background: #FF9800  
+  &--aqua
+    background: $g-aqua
+    &.has-border
+      border-color: #00a6bb
+    &:hover
+      background: #00BCD4   
+  &--dark-green
+    background: $g-dark-green
+    &.has-border
+      border-color: #00a53b
+    &:hover
+      background: #3FC46F     
+  &--dark-aqua
+    background: $g-dark-aqua
+    &.has-border
+      border-color: #006598
+    &:hover
+      background: #469CC7   
+  &--brown
+    background: $g-brown
+    &.has-border
+      border-color: #6b4b3f
+    &:hover
+      background: #9E857B
+  &--light-purple
+    background: $g-light-purple
+    &.has-border
+      border-color: #b50064
+    &:hover
+      background: #DC4598  
+  &--black
+    background: $g-black
+    &.has-border
+      border-color: #5b7582
+    &:hover
+      background: #849BA6   
+  &--dark-blue
+    background: $g-dark-blue
+    &.has-border
+      border-color: #0b26bb
+    &:hover
+      background: #4D66F0       
+  &--light-yellow
+    background: $g-light-yellow
+    &.has-border
+      border-color: #e4ab00
+    &:hover
+      background: #FFC107  
+  &--light-blue
+    background: $g-light-blue
+    &.has-border
+      border-color: #177aff
+    &:hover
+      background: #4E99FF      
+  &--white
+    background: $g-white
+    color: #000
+    &.has-border
+      border-color: #d6d6d6
+    &:hover
+      background: #F1F1F1 
+  &--faded-purple
+    background: $g-faded-purple
+    &.has-border
+      border-color: #5a5692
+    &:hover
+      background: #918DBE  
+  &--dark-red
+    background: $g-dark-red
+    &.has-border
+      border-color: #e00b15
+    &:hover
+      background: #EF585C    
+  // Colorful Gradient Buttons     
+  &--yellow-to-purple
+    background: $g-yellow-to-purple
+    &:hover
+      background: #E654A6         
+  &--blue-to-pink
+    background: $g-blue-to-pink
+    &:hover
+      background: #6A93C8
+  &--aqua-to-blue
+    background: $g-aqua-to-blue
+    &:hover
+      background: #12A7F7    
+  &--yellow-to-orange
+    background: $g-yellow-to-orange
+    &:hover
+      background: #FF8C2D  
+  &--green-to-purple
+    background: $g-green-to-purple
+    &:hover
+      background: #5DA6E0   
+  &--pink-to-purple
+    background: $g-pink-to-purple
+    &:hover
+      background: #CD59D1   
+  &--pink-to-orange
+    background: $g-pink-to-orange
+    &:hover
+      background: #FF379B          
+  &--purple-to-aqua
+    background: $g-purple-to-aqua
+    &:hover
+      background: #7A6AFE  
+  &--aqua-to-green
+    background: $g-aqua-to-green
+    &:hover
+      background: #5AE5B0  
+  &--purple-to-blue
+    background: $g-purple-to-blue
+    &:hover
+      background: #8B21FE       
+  &--aqua-to-white
+    background: $g-aqua-to-white
+    &:hover
+      background: #62A8FC
+  &--yellow-to-green
+    background: $g-yellow-to-green
+    &:hover
+      background: #76F327   
+
+    
+      

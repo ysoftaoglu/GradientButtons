@@ -1,0 +1,89 @@
+$global-padding: 30px
+$logo-text-color: #B239FF
+$main-color: #546E7A
+
+::selection
+  background-color: #f7fbff
+
+*
+  box-sizing: border-box
+
+body
+  font-size: 14px
+  margin: 0
+  color: $main-color
+  padding: 0
+  font-family: 'Montserrat' !important
+
+button,
+pre,
+code
+  font-family: 'Montserrat' !important
+
+.u-text-center
+  text-align: center !important
+
+.u-block
+  display: block !important
+
+.mb-15
+  margin-bottom: 15px !important
+
+.mt-15
+  margin-top: 15px !important
+
+.text
+  line-height: 24px
+
+.container
+  width: 50%
+  margin: 0 auto
+  @media (max-width: 850px)
+    width: 100%
+
+pre[class*="language-"]
+  background-color: transparent !important
+  margin: 0
+  padding: 0
+
+.link
+  color: #5893FE
+
+.hero
+  padding: $global-padding
+  background: linear-gradient(#faf0ff, #fff)
+  &__logo
+    width: 50px
+  &__logo-text
+    color: $logo-text-color
+    font-size: 17px  
+    margin-top: 5px
+  &__desc
+    margin-top: 15px
+
+.info
+  padding: $global-padding
+  border-top: 1px solid #ece5ff
+  &__title
+    font-size: 20px
+    color: #5f6f77
+    span
+      color: #d4c2ff
+      font-size: 30px
+      margin-right: 3px
+  &__code
+    background-color: #fbf3ff
+    padding: 15px
+    letter-spacing: 1px
+    .token.tag
+      line-height: 30px
+  &__highlight
+    background-color: #fffaec
+    padding: 2px
+    color: #000
+
+.footer
+  padding: $global-padding
+  border-top: 1px solid #ece5ff
+  &__copy
+    font-size: 13px

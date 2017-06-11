@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>A Lightweight Gradient Button Css Library | GradientButtons</title>
+  <meta name="description" content="Gradient Button, Ui Button, Css Button Library">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="gradient-buttons/gradient-buttons.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+</head>
+
+<body>
+  <section class="hero u-text-center">
+    <div class="container">
+      <img src="img/logo.png" class="hero__logo">
+      <span class="hero__logo-text u-block">Gradient Buttons</span>
+      <p class="text hero__desc mb-15">
+        This is a lightweight (💪 6.5 kb) css gradient button library for web development. It has many color options and helper classes
+        that can change the view (border, size, display icon etc). It is very simple to use. Just add a stylesheet to your
+        html file and start using the buttons 😎.
+      </p>
+      <div class="hero__rank">
+        <a class="github-button" href="https://github.com/ysoftaoglu" data-style="mega" data-count-href="/ysoftaoglu/followers" data-count-api="/users/ysoftaoglu#followers"
+          data-count-aria-label="# followers on GitHub" aria-label="Follow @ysoftaoglu on GitHub">Follow @ysoftaoglu</a>
+        <a class="github-button" href="https://github.com/ysoftaoglu/GradientButtons" data-icon="octicon-star" data-style="mega"
+          data-count-href="/ysoftaoglu/GradientButtons/stargazers" data-count-api="/repos/ysoftaoglu/GradientButtons#stargazers_count"
+          data-count-aria-label="# stargazers on GitHub" aria-label="Star ysoftaoglu/GradientButtons on GitHub">Star</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#1</span> Basic Usage
+      </div>
+      <p class="text">
+        Download gradient-buttons <a class="link" href="https://github.com/ysoftaoglu/GradientButtons">here</a>.
+      </p>
+      <p class="text">
+        You will need to include the gradient-buttons.min.css file in your page. That's it 🤓.
+      </p>
+      <div class="info__code">
+        <pre><code class="language-html">&lt;link rel="stylesheet" href="gradient-buttons.min.css"/&gt;
+&lt;!-- Or Cdn --&gt;
+&lt;link rel="stylesheet" href="gradient-buttons.min.css"/&gt;
+</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#2</span> Create Gradient Button
+      </div>
+      <p class="text">
+        You must first add the g-btn class to the html element to create the button, then add the class of the button you selected. Like this <span class="info__highlight">.g-btn .g-btn--blue</span>
+      </p>
+      <div class="info__code">
+        <pre><code class="language-html">&lt;button class="g-btn g-btn--blue">Blue Button&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--blue">Blue Button</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#3</span> Size Of Button
+      </div>
+      <p class="text">
+        You can use three helper classes to change the size of the buttons.
+        <ul>
+          <li>u-small</li>
+          <li>u-large</li>
+          <li>u-x-large</li>
+        </ul>
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--orange u-x-large">X Large&lt;/button&gt;
+&lt;button class="g-btn g-btn--orange u-large">Large&lt;/button&gt;
+&lt;button class="g-btn g-btn--orange">Default&lt;/button&gt;
+&lt;button class="g-btn g-btn--orange u-small">Small&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--orange u-x-large">X Large</button>
+      <button class="g-btn g-btn--orange u-large">Large</button>
+      <button class="g-btn g-btn--orange">Default</button>
+      <button class="g-btn g-btn--orange u-small">Small</button>
+    </div>
+  </section>
+
+   <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#4</span> Add Border Radius
+      </div>
+      <p class="text">
+        You can use three helper classes to add border radius of the buttons.
+        <ul>
+          <li>radius-sm</li>
+          <li>radius-md</li>
+          <li>radius-lg</li>
+        </ul>
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--dark-green">Default&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-green radius-sm">Radius Sm&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-green radius-md">Radius Md&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-green radius-lg">Radius Lg&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--dark-green">Default</button>
+      <button class="g-btn g-btn--dark-green radius-sm">Radius Sm</button>
+      <button class="g-btn g-btn--dark-green radius-md">Radius Md</button>
+      <button class="g-btn g-btn--dark-green radius-lg">Radius Lg</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#5</span> Add Border
+      </div>
+      <p class="text">
+        You can add <span class="info__highlight">.has-border</span> class to add border of the buttons. Now you have cool buttons 😁.
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--white has-border">White&lt;/button&gt;
+&lt;button class="g-btn g-btn--light-blue has-border">Light Blue&lt;/button&gt;
+&lt;button class="g-btn g-btn--pink has-border">Pink&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--white has-border">White</button>
+      <button class="g-btn g-btn--light-blue has-border">Light Blue</button>
+      <button class="g-btn g-btn--pink has-border">Pink</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#6</span> Fluid Buttons
+      </div>
+      <p class="text">
+        You can add <span class="info__highlight">.u-block</span> class to create a button with full width.
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--blue u-block">Blue&lt;/button&gt;
+&lt;button class="g-btn g-btn--red u-block">Red&lt;/button&gt;
+&lt;button class="g-btn g-btn--aqua u-block">Aqua&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--blue u-block">Blue</button> <br>
+      <button class="g-btn g-btn--red u-block">Red</button> <br>
+      <button class="g-btn g-btn--aqua u-block">Aqua</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#7</span> Disabled Buttons
+      </div>
+      <p class="text">
+        You can add <span class="info__highlight">.disabled</span> class to add give the button disabled view.
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--light-purple disabled">Light Purple&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-blue disabled">Dark Blue&lt;/button&gt;
+&lt;button class="g-btn g-btn--purple disabled">Purple&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--light-purple disabled">Light Purple</button>
+      <button class="g-btn g-btn--dark-blue disabled">Dark Blue</button>
+      <button class="g-btn g-btn--purple disabled">Purple</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#8</span> Mixing The Classes
+      </div>
+      <p class="text">
+        You can create better-looking buttons by adding different classes.
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--light-blue radius-lg has-border">Light Blue&lt;/button&gt;
+&lt;button class="g-btn g-btn--yellow radius-md">Yellow&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-red radius-sm has-border">Dark Red&lt;/button&gt;
+&lt;button class="g-btn g-btn--purple radius-sm u-small">Purple&lt;/button&gt;
+&lt;button class="g-btn g-btn--white radius-sm has-border u-big u-block">White&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-green radius-sm has-border u-block">Dark Green&lt;/button&gt;
+&lt;button class="g-btn g-btn--light-blue radius-sm u-block">Light Blue&lt;/button&gt;
+&lt;button class="g-btn g-btn--faded-purple u-small u-block">Faded Purple&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--light-blue radius-lg has-border">Light Blue</button>
+      <button class="g-btn g-btn--yellow radius-md">Yellow</button>
+      <button class="g-btn g-btn--dark-red radius-sm has-border">Dark Red</button>
+      <button class="g-btn g-btn--purple radius-sm u-small">Purple</button>
+      <button class="g-btn g-btn--white radius-sm has-border u-large u-block mt-15">White</button> <br>
+      <button class="g-btn g-btn--dark-green radius-sm has-border u-block">Dark Green</button> <br>
+      <button class="g-btn g-btn--light-blue radius-sm u-block">Light Blue</button> <br>
+      <button class="g-btn g-btn--faded-purple u-small u-block">Faded Purple</button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#9</span> Using With Fontawesome
+      </div>
+      <p class="text">
+        You can use the buttons with FontAwesome. Use <span class="info__highlight">.g-btn__left-icon</span> to add icon to the left of the button, use <span class="info__highlight">.g-btn__right-icon</span> to add it to the right.
+      </p>
+      <div class="info__code">
+<pre><code class="language-html">&lt;button class="g-btn g-btn--blue">&lt;i class="fa fa-user g-btn__left-icon">&lt;/i&gt;Sign Up&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-green">Sign In&lt;i class="fa fa-check g-btn__right-icon">&lt;/i&gt;&lt;/button&gt;
+&lt;button class="g-btn g-btn--dark-red">Log Out&lt;i class="fa fa-times g-btn__right-icon">&lt;/i&gt;&lt;/button&gt;
+</code></pre>
+      </div>
+      <p>Output:</p>
+      <button class="g-btn g-btn--blue"><i class="fa fa-user g-btn__left-icon"></i>Sign Up</button>
+      <button class="g-btn g-btn--dark-green">Sign In<i class="fa fa-check g-btn__right-icon"></i></button>
+      <button class="g-btn g-btn--dark-red">Log Out<i class="fa fa-times g-btn__right-icon"></i></button>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#10</span> List Of Simple Gradient Buttons
+      </div>
+      <p class="text">
+        In the Buttons you can see the classes they belong to.
+      </p>
+      <span class="g-btn g-btn--light-blue">.g-btn--light-blue</span> <br><br>
+      <span class="g-btn g-btn--blue">.g-btn--blue</span> <br><br>
+      <span class="g-btn g-btn--purple">.g-btn--purple</span> <br><br>
+      <span class="g-btn g-btn--dark-red">.g-btn--dark-red</span> <br><br>
+      <span class="g-btn g-btn--red">.g-btn--red</span> <br><br>
+      <span class="g-btn g-btn--green">.g-btn--green</span> <br><br>
+      <span class="g-btn g-btn--pink">.g-btn--pink</span> <br><br>
+      <span class="g-btn g-btn--gray">.g-btn--gray</span> <br><br>
+      <span class="g-btn g-btn--white">.g-btn--white</span> <br><br>
+      <span class="g-btn g-btn--orange">.g-btn--orange</span> <br><br>
+      <span class="g-btn g-btn--yellow">.g-btn--yellow</span> <br><br>
+      <span class="g-btn g-btn--light-yellow">.g-btn--light-yellow</span> <br><br>
+      <span class="g-btn g-btn--aqua">.g-btn--aqua</span> <br><br>
+      <span class="g-btn g-btn--dark-green">.g-btn--dark-green</span> <br><br>
+      <span class="g-btn g-btn--dark-aqua">.g-btn--dark-aqua</span> <br><br>
+      <span class="g-btn g-btn--brown">.g-btn--brown</span> <br><br>
+      <span class="g-btn g-btn--light-purple">.g-btn--light-purple</span> <br><br>
+      <span class="g-btn g-btn--black">.g-btn--black</span> <br><br>
+      <span class="g-btn g-btn--faded-purple">.g-btn--faded-purple</span> <br><br>
+      <span class="g-btn g-btn--dark-blue">.g-btn--dark-blue</span>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="container">
+      <div class="info__title">
+        <span>#11</span> List Of Colorful Gradient Buttons
+      </div>
+      <p class="text">
+        In the Buttons you can see the classes they belong to.
+      </p>
+        <span class="g-btn g-btn--yellow-to-purple">.g-btn--yellow-to-purple</span> <br><br>
+        <span class="g-btn g-btn--aqua-to-blue">.g-btn--aqua-to-blue</span> <br><br>
+        <span class="g-btn g-btn--yellow-to-orange">.g-btn--yellow-to-orange</span> <br><br>
+        <span class="g-btn g-btn--green-to-purple">.g-btn--green-to-purple</span> <br><br>
+        <span class="g-btn g-btn--pink-to-purple">.g-btn--pink-to-purple</span> <br><br>
+        <span class="g-btn g-btn--pink-to-orange">.g-btn--pink-to-orange</span> <br><br>
+        <span class="g-btn g-btn--purple-to-aqua">.g-btn--purple-to-aqua</span> <br><br>
+        <span class="g-btn g-btn--aqua-to-green">.g-btn--aqua-to-green</span> <br><br>
+        <span class="g-btn g-btn--purple-to-blue">.g-btn--purple-to-blue</span> <br><br>
+        <span class="g-btn g-btn--aqua-to-white">.g-btn--aqua-to-white</span> <br><br>
+        <span class="g-btn g-btn--yellow-to-green">.g-btn--yellow-to-green</span> <br><br>
+        <span class="g-btn g-btn--blue-to-pink">.g-btn--blue-to-pink</span>
+    </div>
+  </section>
+
+  <footer class="footer u-text-center">
+    <div class="container">
+      <div class="footer__copy">
+       Made With ❤️ by <a class="link" href="https://github.com/ysoftaoglu">Yasin Softaoğlu</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://buttons.github.io/buttons.js"></script>
+  <script src="dist/js/bundle.js"></script>
+</body>
+
+</html>
