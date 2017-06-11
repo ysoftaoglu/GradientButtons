@@ -31,16 +31,6 @@ gulp.task("sass", function() {
 		.pipe(reload({stream:true}));
 });
 
-gulp.task("sass", function() {
-	gulp.src('./sass/**/*.sass')
-		.pipe(plumber())
-		.pipe(sass({outputStyle: 'compressed'}))
-		.pipe(concat('style.css'))
-		.pipe(autoPrefixer())
-		.pipe(gulp.dest('./dist/css/'))
-		.pipe(reload({stream:true}));
-});
-
 gulp.task("sass:forButton", function() {
 	gulp.src('./gradient-buttons/**/*.sass')
 		.pipe(plumber())
